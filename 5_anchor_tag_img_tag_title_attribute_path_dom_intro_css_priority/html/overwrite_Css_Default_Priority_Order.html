@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title> overwrite css default priority order </title>
+        <style>
+            .priority{
+                color: violet !important;
+                font-size: 30px;
+            }
+
+            #id_check{
+                color:pink;
+                font-size: 30px;
+            }
+
+            p{
+                color: blue;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="id_check" style="color: green; font-size: 30px ; " class="priority">hello we are checking the css priority order </p>
+    </body>
+</html>
